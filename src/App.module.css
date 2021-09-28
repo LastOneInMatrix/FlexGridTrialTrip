@@ -21,7 +21,7 @@
 }
 
 .flexItem {
-  padding: 10px;
+  /*padding: 10px;*/
   font: 900 20px "Roboto", sans-serif;
   color: #fff;
   text-align: center;
@@ -63,9 +63,15 @@
 
 /* Custom styles */
 .flexContainer {
+  /*flex-direction: column;*/
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   min-height: 100vh;
+  gap: 5px;
+}
+
+.flexItem {
+  width: calc(33.33% - 5px);
 }
 
 
@@ -77,6 +83,7 @@
     text-align: center;
   }
 }
+
 
 
 
