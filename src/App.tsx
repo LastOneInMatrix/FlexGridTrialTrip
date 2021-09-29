@@ -10,11 +10,16 @@ function App() {
           <div>Logout</div>
       </header>
             <div className={style.flexContainer}>
-                <div className={style.flexItem + ' ' + style.item1}>Aside</div>
-                <div className={style.flexItem + ' ' + style.item2}>Main</div>
-                <div className={style.flexItem + ' ' + style.item3}>Aside</div>
-                {/*<div className={style.flexItem + ' ' + style.item4}>4</div>*/}
-                {/*<div className={style.flexItem + ' ' + style.item5}>5</div>*/}
+                <header className={style.flexItem + ' ' + style.item1}>Header</header>
+                <main>
+                    <aside className={style.flexItem + ' ' + style.item2}>Aside</aside>
+                    <main className={style.flexItem + ' ' + style.item3}>Main</main>
+                    <aside className={style.flexItem + ' ' + style.item4}>Aside</aside>
+                </main>
+
+                <footer className={style.flexItem + ' ' + style.item5}>Footer</footer>
+
+
                 {/*<div className={style.flexItem + ' ' + style.item6}>6</div>*/}
                 {/*<div className={style.flexItem + ' ' + style.item7}>7</div>*/}
                 {/*<div className={style.flexItem + ' ' + style.item8}>8</div>*/}
