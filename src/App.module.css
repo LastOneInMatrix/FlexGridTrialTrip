@@ -63,27 +63,35 @@
 
 /* Custom styles */
 .flexContainer {
-  /*flex-direction: column;*/
   display: flex;
-  min-height: 100vh;
-  align-contetns: center;
-  flex-wrap: wrap;
-  /*align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;*/
 }
-
 .flexItem {
-  width: 150px;
+  width: 400px;
+}
+.item1 {
+  flex-grow: 1;
+  flex-shrink: 3;
+}
+.item2 {
+  flex-grow: 2;
+  flex-shrink: 2;
 }
 
-
-@media screen and (max-width: 650px) {
-  .flexContainer {
-    flex-direction: column;
-  }
-  .App {
-    text-align: center;
-  }
+.item3 {
+  flex-grow: 3;
+  flex-shrink: 1;
 }
+/* индивидуальное выравнивание элементов */
+
+
+/*@media screen and (max-width: 650px) {*/
+/*  .flexContainer {*/
+/*    flex-direction: column;*/
+/*  }*/
+/*  .App {*/
+/*    text-align: center;*/
+/*  }*/
+/*}*/
 
 
 
