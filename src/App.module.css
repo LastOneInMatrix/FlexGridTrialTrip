@@ -64,35 +64,28 @@
 /* Custom styles */
 .flexContainer {
   display: flex;
+  height: 100vh;
 }
 .flexItem {
-  width: 400px;
-}
-.item1 {
-  flex-grow: 1;
-  flex-shrink: 3;
-}
-.item2 {
-  flex-grow: 2;
-  flex-shrink: 2;
+  flex: 1;
 }
 
-.item3 {
-  flex-grow: 3;
-  flex-shrink: 1;
+@media screen and (max-width: 650px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+  .item2 {
+    order: -1;
+    flex-grow: 2
+  }
+  .item1 {
+    order: 0;
+    flex-grow: 1
+  }
+  .item2 {
+    flex-grow: 1
+  }
 }
-/* индивидуальное выравнивание элементов */
-
-
-/*@media screen and (max-width: 650px) {*/
-/*  .flexContainer {*/
-/*    flex-direction: column;*/
-/*  }*/
-/*  .App {*/
-/*    text-align: center;*/
-/*  }*/
-/*}*/
-
 
 
 

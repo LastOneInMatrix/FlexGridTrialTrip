@@ -10,9 +10,9 @@ function App() {
           <div>Logout</div>
       </header>
             <div className={style.flexContainer}>
-                <div className={style.flexItem + ' ' + style.item1}>1</div>
-                <div className={style.flexItem + ' ' + style.item2}>2</div>
-                <div className={style.flexItem + ' ' + style.item3}>3</div>
+                <div className={style.flexItem + ' ' + style.item1}>Aside</div>
+                <div className={style.flexItem + ' ' + style.item2}>Main</div>
+                <div className={style.flexItem + ' ' + style.item3}>Aside</div>
                 {/*<div className={style.flexItem + ' ' + style.item4}>4</div>*/}
                 {/*<div className={style.flexItem + ' ' + style.item5}>5</div>*/}
                 {/*<div className={style.flexItem + ' ' + style.item6}>6</div>*/}
