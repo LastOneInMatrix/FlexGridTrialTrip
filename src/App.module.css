@@ -42,7 +42,7 @@
 }
 
 .item4 {
-  backround: linear-gradient(45deg, #d4fc79, #96e6a1);
+  background: linear-gradient(45deg, #1b31de, #36c4ac);
 }
 
 .item5 {
@@ -58,7 +58,7 @@
 }
 
 .item8 {
-  background: linear-gradient(45deg, #e1eec3, #f05053);
+  background: linear-gradient(45deg, #ace51b, #f05053);
 }
 
 /* Custom styles */
@@ -66,12 +66,11 @@
   /*flex-direction: column;*/
   display: flex;
   flex-wrap: wrap;
-  min-height: 100vh;
-  gap: 5px;
+  justify-content: space-evenly;
 }
 
 .flexItem {
-  width: calc(33.33% - 5px);
+  width: 100px;
 }
 
 
