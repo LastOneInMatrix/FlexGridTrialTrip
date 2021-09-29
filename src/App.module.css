@@ -66,20 +66,13 @@
   /*flex-direction: column;*/
   display: flex;
   min-height: 100vh;
-  align-items: center;
-  justify-content: center;
+  align-contetns: center;
+  flex-wrap: wrap;
   /*align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;*/
 }
 
 .flexItem {
-  /*width: 100px;*/
-}
-.item2 {
-  font-size: 80px;
-}
-
-.item4 {
-  font-size: 50px;
+  width: 150px;
 }
 
 
